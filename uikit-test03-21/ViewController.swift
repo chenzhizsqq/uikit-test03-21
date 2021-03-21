@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     var img1=UIImage(named: "昆虫1")
     var img2=UIImage(named: "昆虫2")
     var img3=UIImage(named: "昆虫3")
+    var intlastNum = -1
     
     var collectAnswer = String()
     
@@ -35,6 +36,11 @@ class ViewController: UIViewController {
     
     func randomQuestion(){
         var randomNumber = arc4random() % 3
+        while intlastNum==randomNumber {
+            randomNumber = arc4random() % 3
+        }
+        intlastNum=Int(randomNumber)
+        
         randomNumber += 1
         unHide()
         

@@ -41,8 +41,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSC-fY-AqD">
-                                <rect key="frame" x="195" y="677" width="32" height="30"/>
+                                <rect key="frame" x="146" y="677" width="122" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="Next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ei-1H-dDP"/>
